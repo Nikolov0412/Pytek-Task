@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.heading{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+     
+
+}
+.title{
+    font-weight: normal;
+    font-size: 50px;
+}
+.underTitle{
+font-weight: normal;
+font-size: 18px;
+}
+
+.card{
+    max-width: 1500px;
+  margin: 4rem auto;
+}
+.card-question {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #F0F0F0	;
+
+
+  }
+  
+  .card-question:hover {
+    background-color: #E8E8E8;
+  }
+  
+  .card-question,
+  .card-answer {
+    padding: 0.3rem;
+    
+  }
+  
+  .card-answer {
+    background-color: #F0F0F0	;
+    padding-left: 1.2rem;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+}
+  .showcard-answer {
+    height: 150px;
+    opacity: 1;
+    background-color: #F0F0F0	;
+    padding-left: 1.2rem;
+    margin-top: -20px;
+  }
+  .questionHeading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    padding-left: 1rem;
+    justify-content: center;
+     
+    
+  }
+  .openSigns{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 1.8rem;
+    padding-right: 2rem;
+  }
+  .answerParagraph{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding-top: 1rem;
+    font-size: 20px;
+  }
